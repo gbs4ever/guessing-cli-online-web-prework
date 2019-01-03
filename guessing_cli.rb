@@ -5,7 +5,7 @@ user_input = ""
       puts "Guess a number between 1 and 6."
       pcans = rand(1..6).to_s
       user_input= gets.chomp
-      pcans=pcans1
+    #  pcans=pcans1
     if  user_input == "exit"
         puts  "Goodbye!"
           break
